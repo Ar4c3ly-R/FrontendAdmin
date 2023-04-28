@@ -5,7 +5,7 @@ export const Login = () => {
         <section className="self-center flex flex-col">
           <img className="self-center" src="https://logomaker.designfreelogoonline.com/media/productdesigner/logo/resized/000749_online_store_logos_design_free_online_E-commerce_cart_logo_maker-02.png" alt="" />
           <h2 className=" text-xl pt-0 py-8 text-center text-amber-500">
-            <label className="text-black"> Welcome </label>
+            <label className="font-bold"> Welcome </label>
             to Admin Panel</h2>
         </section>
         
