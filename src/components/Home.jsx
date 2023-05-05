@@ -15,8 +15,8 @@ export const Home = () => {
             </main>
 
             <article>
-                <section>info</section>
-                <section>lista personal</section>
+                <section>info datos,</section>
+                <section>perfiles</section>
             </article>
         </div>
     </div>
