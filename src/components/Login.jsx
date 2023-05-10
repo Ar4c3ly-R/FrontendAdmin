@@ -1,6 +1,8 @@
 import { Button } from "./common/Button/Button";
 import { LOGIN_LABEL } from "../utilities/constants";
 
+import { Input } from "./common/Input/Input";
+
 export const Login = () => {
   return (
     <div className="h-screen flex justify-center">
@@ -26,7 +28,7 @@ export const Login = () => {
               >
                 Your email
               </label>
-              <input
+              <Input  
                 type="email"
                 id="email"
                 className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-full focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
@@ -41,7 +43,7 @@ export const Login = () => {
               >
                 Your password
               </label>
-              <input
+              <Input
                 type="password"
                 id="password"
                 className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-full focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
