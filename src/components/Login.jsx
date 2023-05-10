@@ -1,3 +1,6 @@
+import { Button } from "./common/Button/Button";
+import { LOGIN_LABEL } from "../utilities/constants";
+
 export const Login = () => {
   return (
     <div className="h-screen flex justify-center">
@@ -47,13 +50,12 @@ export const Login = () => {
               />
             </div>
             <div className="flex mt-8">
-              <button
+              <Button
                 type="login"
-                className="text-white bg-cyan-600 hover:bg-teal-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm md:w-80 sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 
-                "
+                text={LOGIN_LABEL}
+                className="text-white bg-cyan-600 hover:bg-teal-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm md:w-80 sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
-                Login
-              </button>
+              </Button>
             </div>
           </form>
         </main>
